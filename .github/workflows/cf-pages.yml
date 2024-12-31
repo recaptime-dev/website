@@ -4,10 +4,12 @@ on:
   push:
     branches:
       - main
+      - labs/mkdocs-material
 
 env:
   CF_ACCOUNT_ID: 33e6189a4a87f1923e71af8da171e2ed
   PAGES_PROJECT_NAME: recaptime-dev
+  PYTHON_VERSION: 3.13
 
 jobs:
   publish:
@@ -20,17 +22,35 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Ruby
-        # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
-        # change this to (see https://github.com/ruby/setup-ruby#versioning):
-        uses: ruby/setup-ruby@v1
+      - name: Set up Python runtime
+        uses: actions/setup-python@v4
         with:
-          ruby-version: "3.3.0"
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-      - name: Install
-        run: bundle install
-      - name: Build jekyll site
-        run: bundle exec jekyll build -d public
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Set the date environmental variable
+        run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+
+      - name: Set up build cache
+        uses: actions/cache@v3
+        id: cache
+        with:
+          key: buildkit-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            buildkit-
+
+      - name: Install dependencies
+        run: sudo apt-get install pngquant
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Deploy documentation
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          PYTHONPATH: .
+        run: |
+          mkdocs build --clean
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
