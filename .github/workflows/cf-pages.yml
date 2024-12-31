@@ -1,4 +1,4 @@
-name: Cloudflare Pages
+name: Site Deploys
 
 on:
   push:
@@ -12,12 +12,12 @@ env:
   PYTHON_VERSION: 3.13
 
 jobs:
-  publish:
+  cf-pages:
     runs-on: ubuntu-latest
     permissions:
       contents: read
       deployments: write
-    name: Deploy on main branch
+    name: Cloudflare Pages - production
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -47,7 +47,7 @@ jobs:
       - name: Install Python dependencies
         run: pipenv install
 
-      - name: Deploy documentation
+      - name: Build site
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           PYTHONPATH: .
@@ -57,7 +57,7 @@ jobs:
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_BOT_API_TOKEN }}
+          apiToken: ${{ secrets.CLOUDFLARE_SERVICE_ACCOUNT_TOKEN }}
           accountId: ${{ env.CF_ACCOUNT_ID }}
           projectName: ${{ env.PAGES_PROJECT_NAME}}
           directory: public
