@@ -1,0 +1,155 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+# Site metadata
+site_name: Recap Time Squad
+site_author: Recap Time Squad Crew
+copyright: >-
+  Copyright &copy; 2024 Recap Time Squad and contributiors. Website content licensed under
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a>, unless otherwise specified.
+site_url: https://recaptime.dev
+docs_dir: src
+
+# repository settings
+repo_url: https://github.com/recaptime-dev/website
+edit_uri_template: https://github.dev/recaptime-dev/website/blob/labs/mkdocs-material/docs/{path}
+
+nav:
+- index.md
+- Meta:
+  - projects.md
+  - Imprint: imprint.md
+  - Donate:
+    - donate/index.md
+    - FAQs: donate/faq.md
+    - Our sponsors: sponsors.md
+- Blog: https://blog.recaptime.dev
+- Wiki: https://wiki.recaptime.dev
+
+# theme settings
+theme:
+  custom_dir: data/theme
+  name: material
+  features:
+    #- announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      accent: yellow
+      primary: pink
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: yellow
+      primary: pink
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+# markdown extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  hcb:
+    hide: false
+    org_slug: recaptime-dev
+    org_name: Recap Time Squad
+  social:
+    - icon: material/bank-outline
+      link: https://hcb.hackclub.com/recaptime-dev
+      name: See our finances on HCB
+    - icon: simple/opencollective
+      link: https://opencollective.com/recaptime-dev
+      name: See our finances on Open Collective
+    - icon: material/mastodon
+      link: https://mastodon.xyz/@RecapTimeSquad
+      name: Follow the crew on the fediverse
+    - icon: simple/bluesky
+      link: https://bsky.app/profile/recaptime.dev
+      name: Follow the crew on Bluesky
+  footer_links:
+  - label: Privacy Policy
+    href: https://policies.recaptime.dev/privacy
+  - label: Terms of Service
+    href: https://policies.recaptime.dev/terms
+  - label: Imprint / Official docs
+    href: /imprint
+
+extra_css:
+  - assets/stylesheets/theme.css
