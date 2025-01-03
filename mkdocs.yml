@@ -143,12 +143,17 @@ extra:
     - icon: simple/bluesky
       link: https://bsky.app/profile/recaptime.dev
       name: Follow the crew on Bluesky
+    - icon: sinple/telegram
+      link: https://t.me/recaptimesquad
+      name: Follow the crew on Telegram
   footer_links:
   - label: Privacy Policy
     href: https://policies.recaptime.dev/privacy
   - label: Terms of Service
     href: https://policies.recaptime.dev/terms
-  - label: Imprint / Official docs
+  - label: Code of conduct
+  - href: https://policies.recaptime.dev/code-of-conduct
+  - label: Imprint / Legal info
     href: /imprint
 
 extra_css:
