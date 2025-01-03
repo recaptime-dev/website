@@ -16,11 +16,12 @@ nav:
 - index.md
 - Meta:
   - projects.md
+  - about.md
   - Imprint: imprint.md
   - Donate:
     - donate/index.md
     - FAQs: donate/faq.md
-    - Our sponsors: sponsors.md
+    - Sponsors list: sponsors.md
 - Blog: https://blog.recaptime.dev
 - Wiki: https://wiki.recaptime.dev
 
@@ -100,11 +101,12 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.keys
+  # TODO: Point to meta issue tracker later
   - pymdownx.magiclink:
       normalize_issue_symbols: true
       repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
+      user: recaptime-dev
+      repo: community
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
@@ -143,7 +145,7 @@ extra:
     - icon: simple/bluesky
       link: https://bsky.app/profile/recaptime.dev
       name: Follow the crew on Bluesky
-    - icon: sinple/telegram
+    - icon: simple/telegram
       link: https://t.me/recaptimesquad
       name: Follow the crew on Telegram
   footer_links:
