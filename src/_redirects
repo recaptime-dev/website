@@ -1,0 +1,2 @@
+/projects https://wiki.recaptime.dev/projects
+/projects/* https://wiki.recaptime.dev/projects/:splat

@@ -22,6 +22,7 @@ nav:
     - donate/index.md
     - FAQs: donate/faq.md
     - Sponsors list: sponsors.md
+- Official links: links.md
 - Blog: https://blog.recaptime.dev
 - Wiki: https://wiki.recaptime.dev
 
@@ -75,6 +76,12 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+
+plugins:
+  - redirects:
+      redirect_maps:
+        projects.md: https://wiki.recaptime.dev/projects
+        blog/index.md: https://blog.recaptime.dev
 
 # markdown extensions
 markdown_extensions:

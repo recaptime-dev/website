@@ -7,13 +7,13 @@ hide:
 # Hi, we're Recap Time Squad!
 
 We're an all-remote open-source organization in the Philippines, initially as
-a home of @ajhalili2006's projects (not only open-source) since 2018[^1]. We might be look like 
-nothing happened here, but we're cooking things behind the
+a home of @ajhalili2006's projects (not only open-source software) since 2018[^1].
+We might be look like nothing happened here, but we're cooking things behind the
 scenes right now.
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-user-plus: [Explore our projects](./projects.md)
+-   :fontawesome-solid-user-plus: [Explore our projects](https://wiki.recaptime.dev/projects)
     
     ---
     
@@ -35,13 +35,17 @@ scenes right now.
 
     [Visit our blog](https://blog.recaptime.dev) (powered by :simple-ghost: [Ghost] on
     [Hack Club Nest] also syndicating to :simple-substack: [Substack] and :simple-medium:
-    [Medium] for discoverability), [follow us on the fediverse] or [in Bluesky].
+    [Medium] for discoverability), [follow us on the fediverse] or [in Bluesky]. (Looking
+    for the full list of our official accounts, including our projects?)
 
 -   :fontawesome-solid-hand-holding-dollar: [Donate to the crew](./donate/index.md)
 
     ---
 
     Support the projects we build, maintain and host, alongside the humans behind them.
+    (We chose to be a non-profit through being fiscally sponsored via [HCB], Hack Club's
+    [fiscal sponsorship] program, rather than spending thousands of Philippine pesos setting
+    up a legal entity while our BDFL is at school.)
 </div>
 
 ## Updates from the crew
@@ -72,12 +76,13 @@ _Being listed here does not imply endorsement, we're either using their product 
 
 | Name/Logo | Description and Why |
 | --- | --- |
-| Hack Club | Other than [their fiscal sponsorship program], @ajhalili2006 is thanking the Hack Club HQ team for supporting teenage high schoolers and alumnis like him through their YSWS grants and dev + maker resources. |
+| Hack Club | Other than [their fiscal sponsorship program][HCB], @ajhalili2006 is thanking the Hack Club HQ team for supporting teenage high schoolers and alumnis like him through their YSWS grants and dev + maker resources. |
 
 [follow us on the fediverse]: https://mastodon.xyz/@RecapTimeSquad
 [Ghost]: https://ghost.org
 [Hack Club Nest]: https://hackclub.app
 [Substack]: https://recaptimesquad.substack.com
 [Medium]: https://medium.com/recaptime-dev
+[HCB]: https://hackclub.com/fiscal-sponsorship
+[fiscal sponsroship]: https://en.wikipedia.org/wiki/Fiscal_sponsorship
 [^1]: It exist under different names until the current one around 2022-2023 and may be complicated to explain why.
-[their fiscal sponsorship program]: https://hackclub.com/fiscal-sponsorship

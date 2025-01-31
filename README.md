@@ -13,8 +13,8 @@
 
 [![Cloudflare Pages](https://github.com/recaptime-dev/website-next/actions/workflows/cf-pages.yml/badge.svg)](https://github.com/recaptime-dev/website-next/actions/workflows/cf-pages.yml)
 
-RecapTime.dev website sources, built with [Material for Mkdocs]. Previously on
-Jekyll with [Just the Docs] and [Type on Strap] themes.
+RecapTime.dev website sources, built with [Material for Mkdocs] and hosted on Cloudflare
+Pages. Previously on Jekyll with [Just the Docs] and [Type on Strap] themes.
 
 [Material for Mkdocs]: https://squidfunk.github.io/mkdocs-material/
 
@@ -33,5 +33,5 @@ See [`CONTRIBUTING.md`](./CONTRIBUTING.md) file for full details. In nutshell:
 
 ## License
 
-* Website: CC-BY-SA-4.0
-* Source repo: MPL-2.0
+- Website content (sources at `./src`): CC-BY-SA-4.0 unless specifically specified
+- Source repo: MPL-2.0
