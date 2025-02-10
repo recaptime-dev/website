@@ -74,12 +74,13 @@ _Being listed here does not imply endorsement, we're either using their product 
 [Zulip]: https://zulip.com
 [Zulip Cloud instance]: https://recaptime-dev.zulipchat.com
 [Community plan]: https://docs.gitbook.com/help-center/account-management/subscriptions/how-can-i-apply-for-a-community-plan
+[Netlify]: https://netlify.com
 
 ### Honorable Mentions
 
 | Name/Logo | Description and Why |
 | --- | --- |
-| Hack Club | Other than [their fiscal sponsorship program][HCB], @ajhalili2006 is thanking the Hack Club HQ team for supporting teenage high schoolers and alumnis like him through their YSWS grants and dev + maker resources. |
+| Hack Club | Other than [their fiscal sponsorship program][HCB], @ajhalili2006 is thanking the Hack Club HQ team for supporting teenage high schoolers and past alumnis like him through their YSWS grants and dev + maker resources. |
 
 [follow us on the fediverse]: https://mastodon.xyz/@RecapTimeSquad
 [Ghost]: https://ghost.org
