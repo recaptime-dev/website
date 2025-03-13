@@ -9,19 +9,19 @@ site_url: https://recaptime.dev
 docs_dir: src
 
 # repository settings
-repo_url: https://github.com/recaptime-dev/website
-edit_uri_template: https://github.dev/recaptime-dev/website/blob/labs/mkdocs-material/docs/{path}
+repo_url: https://gitlab.com/recaptime-dev/website
+edit_uri: blob/labs/mkdocs-material/{path}
 
 nav:
 - index.md
 - Meta:
-  - projects.md
   - about.md
   - Imprint: imprint.md
   - Donate:
     - donate/index.md
     - FAQs: donate/faq.md
     - Sponsors list: sponsors.md
+- Projects: projects.md
 - Official links: links.md
 - Blog: https://blog.recaptime.dev
 - Wiki: https://wiki.recaptime.dev
@@ -76,6 +76,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+  icon:
+    repo: fontawesome/brands/gitlab
 
 plugins:
   - redirects:
@@ -161,7 +163,7 @@ extra:
   - label: Terms of Service
     href: https://policies.recaptime.dev/terms
   - label: Code of conduct
-  - href: https://policies.recaptime.dev/code-of-conduct
+    href: https://policies.recaptime.dev/code-of-conduct
   - label: Imprint / Legal info
     href: /imprint
 

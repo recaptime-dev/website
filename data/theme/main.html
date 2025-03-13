@@ -2,14 +2,11 @@
 
 {% block announce %}
   <strong>
-    Welcome to our new site, built with <a href="https://go.recaptime.dev">
+    Welcome to our new site, built with <a href="https://squidfunk.github.io/mkdocs-material">
     Material for Mkdocs</a>!
   </strong>
   Some pages are still missing, others are being removed or revamped in the new website
-  design.
-  <br>
-  <a href="https://github.com/recaptime-dev/website/issues">Let us know</a> about
-  your experience with the site revamp in the issue tracker.
+  design. <a href="https://gitlab.com/recaptime-dev/website/issues">Send feedback</a>
 {% endblock %}
 
 {% block extrahead %}
@@ -18,8 +15,11 @@
 {% endblock %}
 
 {% block content %}
-  {{ super() }}
   <!-- Help Scout Beacon widget -->
   <script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});</script>
   <script type="text/javascript">window.Beacon('init', 'befb0a3b-6162-4ec4-889d-1bc5abc1558b')</script>
+
+  <!-- Stripe.js SDK -->
+  <script src="https://js.stripe.com/v3/"></script>
+  {{ super() }}
 {% endblock %}

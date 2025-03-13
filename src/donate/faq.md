@@ -4,6 +4,10 @@ We complie questions we expect to receive in our inboxes here in this page.
 Still have burning questions? Just shoot us (or the HCB team) an email, addresses
 are mentioned below.
 
+You can also visit [our help center](https://support.recaptime.dev/category/4-fundraising-donations-and-transactions-help) for a more in depth
+answers to your questions.
+
+
 ## Is my donation or gift tax-deductible?
 
 If you are from the US (or have tax residency in the US), your donations and gifts
@@ -36,12 +40,38 @@ for that (or just email us).
 
 ## Can we cover your fiscal sponsorship fee?
 
-Much appericated if you add 7% to cover the fees on your donation amount.
-Even better if you also [donate to Hack Club HQ] as Platform Tip (for those
-familiar with using Open Collective to donate to open-source projects and
-communities there).
+Much appericated if you add 7% to cover the fees on your donation amount,
+although we'll not force anyone to do so.
 
-[donate to Hack Club HQ]: https://hcb.hackclub.com/donations/start/hq
+On HCB donation page, you will just tick the box on `Add $X to cover all fees)
+
+![Cover all fees on HCB](https://cdn.fluff.pw/slackcdn/0be0d367508b3c2d1a0e6842b2374c43.png)
+
+If you are at Open Collective and other platforms, as well as those utilizing
+ACH/wire transfers and bank checks, use the following formula on
+your calucator on getting how much do you need to pay. Payment processor and
+currency conversion fees may apply.
+
+```text
+amount to donate in USD / 0.93 = total amount
+```
+
+### Sidebar: How does fiscal sponsorship fees work?
+
+From [the HCB Help Center](https://help.hcb.hackclub.com/article/18-what-is-the-fiscal-sponsorship-fee-and-how-much-is-it-why-does-hcb-take-a-fiscal-sponsorship-fee-how-does-it-compare-to-other-fiscal-sponsors):
+
+> In order to support HCB's operations, we do take a fiscal sponsorship fee
+> which is typically 7% of any funds that go into your HCB account. This is
+> not monthly or annually, and you do not have to meet a certain amount raised
+> when joining HCB or over a certain period of time.
+>
+> This fee covers card transactions, full-time and part-time staff members
+> (both engineering and operations), perks, and any legal behind the scenes
+> (including our full-time bookeeper and accountants who manage your funds).
+>
+> Compared to other fiscal sponsorship fees that tend to range from 7& to 14%,
+> we sit at the lowest end of the spectrum (only taking what is really needed
+> to support us as a fiscal sponsor so we can support you).
 
 ## How do I request a refund? What is your refund policy?
 
@@ -50,8 +80,8 @@ contributions or `support@recaptime.dev` for anything else and we'll look onto i
 sure to have your donation/order/transaction ID handy in your request (if it is from
 HCB, just reply to the receipt email; for PayPal, use the merchant transaction ID).
 
-We generally review and process refund requests with 72 hours on the receipt of the request
-for the following reasons ([adopted from the Open Collective docs][oc-refund-policy]):
+We generally review and process refund requests with 72 hours on the receipt of the
+request for the following reasons ([adopted from the Open Collective docs][oc-refund-policy]):
 
 * Mistaken or accidental donations (including unauthorized transactions if it is not
 you per card issuer policies on disputes)
@@ -69,25 +99,29 @@ Please note that we may not be able to refund (either in full or part) if:
 * that amount is used or being used towards our projects or for team payroll
 * held in reserves or transferred to one of the following:
     * Hack Club HQ or any affliated projects or events
-    * an organization fiscally-sponsored by Hack Club through HCB or 501\(c)(3) US non-profit (or similar outside the US)
+    * an organization fiscally-sponsored by Hack Club through HCB or another 501\(c)(3)
+    US non-profit (or similar outside the US)
 
 Currently, we can only process refunds for debit/credit card transactions processed via
 Stripe or PayPal due to the risk of refund fraud. Direct debit transactions processed
 through Stripe are also eligible for refunds, but may take longer to review and process
 for bank account holders outside the US.
 
+If you donate via our GitHub Sponsors, Ko-fi/Patreon/Buy Me A Coffee, or Discord
+Server Store page, platform refund policies apply.
+
 ## What are statement descriptors you use for bank statements?
 
 We use the following statement descriptors for online donations through the HCB fiscal
 sponsorship platform:
 
-* `HCKCLB` - HCB's short-form statement descriptor for card authorizations
+* `HCKCLB` or `HACKCLUB` - HCB's short-form statement descriptor for card authorizations
 * `HCB* RECAP TIME SQUAD` - Donations to [Recap Time Squad](https://hcb.hackclub.com/recaptime-dev) on HCB
 * `HCB* LOREBOOKS.WIKI` - Donations to [Community Lorebooks](https://hcb.hackclub.com) on HCB
 
 Outside the HCB where we handle transactions ourselves via Stripe on places like Open
-Collective, Substack, Ghost and Liberapay (or on our own), we use the following statement
-descriptors:
+Collective, Substack, Ghost and Liberapay (or on our own), we use the following
+statement descriptors:
 
 * `RECAPTIME.DEV` or `RTDEV`
 * `LOREBOOKS.WIKI` or `RTDEV* LOREBOOKS.WIKI`
