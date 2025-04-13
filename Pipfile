@@ -16,7 +16,7 @@ mkdocs-git-committers-plugin-2 = "*"
 [dev-packages]
 
 [requires]
-python_version = "3.13"
+python_version = "3.12"
 
 [scripts]
 dev = "mkdocs serve -w ./data --watch-theme -v"
