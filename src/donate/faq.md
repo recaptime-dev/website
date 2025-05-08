@@ -7,7 +7,6 @@ are mentioned below.
 You can also visit [our help center](https://support.recaptime.dev/category/4-fundraising-donations-and-transactions-help) for a more in depth
 answers to your questions.
 
-
 ## Is my donation or gift tax-deductible?
 
 If you are from the US (or have tax residency in the US), your donations and gifts
@@ -126,13 +125,4 @@ statement descriptors:
 * `RECAPTIME.DEV` or `RTDEV`
 * `LOREBOOKS.WIKI` or `RTDEV* LOREBOOKS.WIKI`
 
-Andrei Jiroh also use Stripe but its linked bank account points to our bank
-details within the HCB platform (instead of pointing to his Wise USD balances
-to also benefit Recap Time Squad and its projects), and uses the following
-statement descriptors:
-
-* `ANDREIJIROH.DEV` - mainly used for [his Ghost blog](https://blog.andreijiroh.dev)
-* `SUBSTACK.ANDREIJIROH.DEV` - for [paid subscriptions on his Substack](https://ajhalili2006.substack.com)
-
-If you donate via our GitHub Sponsors, Ko-fi, or Discord Server Store page, platform
-refund policies apply.
+## My question is still unanswered. Can I send you a email?

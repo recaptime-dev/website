@@ -13,7 +13,7 @@ scenes right now.
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-user-plus: [Explore our projects](https://wiki.recaptime.dev/projects)
+-   :material-compass-outline: [Explore our projects](https://wiki.recaptime.dev/projects)
     
     ---
     
@@ -88,5 +88,6 @@ _Being listed here does not imply endorsement, we're either using their product 
 [Substack]: https://recaptimesquad.substack.com
 [Medium]: https://medium.com/recaptime-dev
 [HCB]: https://hackclub.com/fiscal-sponsorship
-[fiscal sponsroship]: https://en.wikipedia.org/wiki/Fiscal_sponsorship
+[in Bluesky]: https://bsky.app/profile/recaptime.dev
+
 [^1]: It exist under different names until the current one around 2022-2023 and may be complicated to explain why.

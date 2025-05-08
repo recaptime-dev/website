@@ -6,10 +6,10 @@ Andrei Jiroh is our team lead/founder and the SABDFL (self-assigned benelovent d
 for life[^1]) for most of Recap Time Squad projects.
 
 You may contact him via email at `ajhalili2006@crew.recaptime.dev` for general inquiries about
-the organization and its projects or reach out via SMS/RCS at `+63 994 325 9266` (also [Signal] and [Telegram]) for emergencies and abuse/incident reports only.
-(Please note that we do not accept calls, as written[^2]/async digital communications are much preferred.)
+the organization and its projects or reach out via SMS/RCS at `+63 994 325 9266` (also [Signal] and [Telegram])
+for emergencies and abuse/incident reports only. (Please note that we do not accept calls, as written[^2]/async digital communications are much preferred.)
 
-**For Hack Club HQ/HCB team**: Andrei Jiroh is also reachable over at [Hack Club Slack] as a Hack Club alumni (since 2025)
+**For Hack Club HQ/HCB team**: Andrei Jiroh is also reachable over at [Hack Club Slack] as a Hack Club alumni (since 2025) via Slack DMs if needed.
 
 [Hack Club Slack]: https://hackclub.slack.com/team/U07CAPBB9B5
 [Telegram]: https://t.me/RecapTimeSquadCrew
@@ -17,7 +17,7 @@ the organization and its projects or reach out via SMS/RCS at `+63 994 325 9266`
 
 ## Nonprofit Status
 
-Our 501\(c)(3) US non-profit status comes from our fiscal host, The Hack Foundation (d.b.a Hack Club)
+Our 501\(c)(3) US non-profit status comes from our fiscal host, [The Hack Foundation] (d.b.a [Hack Club])
 through their [fiscal sponsorship program] with the EIN `81-2908499`. The HCB team can be reached over
 email at [`hcb@hackclub.com`][hcb-email]
 
@@ -39,3 +39,5 @@ email at [`hcb@hackclub.com`][hcb-email]
 [irs-fw9]: https://link.storjshare.io/s/jvvhbg7dmjjtzwhdj657yyf5ctga/recaptime-dev/legal-docs%2Fhcb/Hack%20Club%20W-9.pdf
 [pp-npe]: https://projects.propublica.org/nonprofits/organizations/812908499
 [ledger]: https://hcb.hackclub.com/hq/transactions
+[The Hack Foundation]: https://the.hackfoundation.org
+[Hack Club]: https://hackclub.com
