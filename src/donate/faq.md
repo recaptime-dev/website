@@ -42,7 +42,7 @@ for that (or just email us).
 Much appericated if you add 7% to cover the fees on your donation amount,
 although we'll not force anyone to do so.
 
-On HCB donation page, you will just tick the box on `Add $X to cover all fees)
+On HCB donation page, you will just tick the box on `Add $X to cover all fees` (where `$X` is usually the amount deduvted from your donation amount once processed and received by our fiscal sponsor).
 
 ![Cover all fees on HCB](https://cdn.fluff.pw/slackcdn/0be0d367508b3c2d1a0e6842b2374c43.png)
 
@@ -57,7 +57,7 @@ amount to donate in USD / 0.93 = total amount
 
 ### Sidebar: How does fiscal sponsorship fees work?
 
-From [the HCB Help Center](https://help.hcb.hackclub.com/article/18-what-is-the-fiscal-sponsorship-fee-and-how-much-is-it-why-does-hcb-take-a-fiscal-sponsorship-fee-how-does-it-compare-to-other-fiscal-sponsors):
+From [the HCB Help Center](https://web.archive.org/web/20250915180307/https://help.hcb.hackclub.com/article/18-what-is-the-fiscal-sponsorship-fee-and-how-much-is-it-why-does-hcb-take-a-fiscal-sponsorship-fee-how-does-it-compare-to-other-fiscal-sponsors) (archive link):
 
 > In order to support HCB's operations, we do take a fiscal sponsorship fee
 > which is typically 7% of any funds that go into your HCB account. This is
@@ -84,7 +84,7 @@ request for the following reasons ([adopted from the Open Collective docs][oc-re
 
 * Mistaken or accidental donations (including unauthorized transactions if it is not
 you per card issuer policies on disputes)
-* Unmet expectations regarding products/services we provide
+* Unmet expectations regarding our projects and services
 * Double charges
 * Cancelled events and subscriptions (your subscription will be cancelled immediately
 once refunded)
@@ -98,8 +98,7 @@ Please note that we may not be able to refund (either in full or part) if:
 * that amount is used or being used towards our projects or for team payroll
 * held in reserves or transferred to one of the following:
     * Hack Club HQ or any affliated projects or events
-    * an organization fiscally-sponsored by Hack Club through HCB or another 501\(c)(3)
-    US non-profit (or similar outside the US)
+    * an organization fiscally-sponsored by Hack Club through HCB or another 501\(c)(3) US non-profit (or similar outside the US)
 
 Currently, we can only process refunds for debit/credit card transactions processed via
 Stripe or PayPal due to the risk of refund fraud. Direct debit transactions processed
@@ -125,4 +124,14 @@ statement descriptors:
 * `RECAPTIME.DEV` or `RTDEV`
 * `LOREBOOKS.WIKI` or `RTDEV* LOREBOOKS.WIKI`
 
-## My question is still unanswered. Can I send you a email?
+## I want to donate in-kind or send physical items to the team. What's the address?
+
+Thanks for your interest in doing non-finanical contributions towards our open-source efforts and we appericate the gift. Please note, according to IRS regulations, establishing a dollar value on donated goods is the exclusive responsibility of the donor and donated services are not tax deductible.
+
+**For in-kind donations such as donated/free services, discounts and cloud credits**: Let us know the details at `sponsors@recaptime.dev` although if we believe we don't need that at the moment, we'll pass along to others who need them.
+
+**For merch items and other physical items to team members or the org itself**: We don't have a mailing address handy for those who want to send us stickers and other merch (or the HCB team would like to accept on our behalf and forward it to our team members), but you can [ask Andrei Jiroh directly (our BDFL)](https://andreijiroh.dev/contact) for his address.
+
+## My question is still unanswered. Where I can contact you?
+
+TBD

@@ -16,7 +16,7 @@ nav:
 - index.md
 - Meta:
   - about.md
-  - Imprint: imprint.md
+  - Imprint: https://policies.recaptime.dev/imprint
   - Support our work:
     - donate/index.md
     - FAQs: donate/faq.md

@@ -14,8 +14,9 @@ _site/
 .bundle/
 vendor/
 
-# mkdocs
+# mkdocs / zensical
 public/
+site/
 
 # Fresh build directory
 _fresh/

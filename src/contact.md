@@ -4,7 +4,7 @@
 
 For the general inquiries, use the chat widget button, powered by Help Scout Beacon to chat with the team
 (if available) or to send us a ticket. Alternatively, shoot us a email at `contact@recaptime.dev`
-(we'll reply via [Help Scout](https;//helpscout.net) behind the scenes) or `squad@crew.recaptime.dev`.
+(we'll reply via [Help Scout](https://helpscout.com) behind the scenes) or `squad@crew.recaptime.dev`.
 We'll try to respond to you within 1-2 business days, excluding holidays in the Philippines.
 
 See also [the imprint/impressum](./imprint.md) on our legal entity infromation and accountability
