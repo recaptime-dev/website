@@ -1,2 +1,4 @@
-/projects https://wiki.recaptime.dev/projects
-/projects/* https://wiki.recaptime.dev/projects/:splat
+/projects https://hq.recaptime.dev/wiki/Category:Recap_Time_Squad_projects
+/projects/lorebooks-wiki https://lorebooks.wiki
+/projects/community-lorebooks https://lorebooks.wiki
+/links https://links.recaptime.dev
