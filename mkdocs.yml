@@ -17,14 +17,14 @@ nav:
 - Meta:
   - about.md
   - Imprint: imprint.md
-  - Donate:
+  - Support our work:
     - donate/index.md
     - FAQs: donate/faq.md
     - Sponsors list: sponsors.md
-- Projects: projects.md
-- Official links: links.md
+- Projects: https://hq.recaptime.dev/wiki/Category:Recap_Time_Squad_projects
+- Official links: https://links.recaptime.dev
 - Blog: https://blog.recaptime.dev
-- Wiki: https://wiki.recaptime.dev
+- Wiki: https://hq.recaptime.dev
 
 # theme settings
 theme:
@@ -82,7 +82,7 @@ theme:
 plugins:
   - redirects:
       redirect_maps:
-        projects.md: https://wiki.recaptime.dev/projects
+        projects.md: https://hq.recaptime.dev/wiki/Category:Recap_Time_Squad_projects
         blog/index.md: https://blog.recaptime.dev
 
 # markdown extensions
@@ -145,18 +145,18 @@ extra:
     - icon: material/bank-outline
       link: https://hcb.hackclub.com/recaptime-dev
       name: See our finances on HCB
-    - icon: simple/opencollective
-      link: https://opencollective.com/recaptime-dev
-      name: See our finances on Open Collective
-    - icon: material/mastodon
-      link: https://mastodon.xyz/@RecapTimeSquad
-      name: Follow the crew on the fediverse
     - icon: simple/bluesky
       link: https://bsky.app/profile/recaptime.dev
-      name: Follow the crew on Bluesky
+      name: Follow us on the Atmosphere via Bluesky Social
+    - icon: material/mastodon
+      link: https://mastodon.xyz/@RecapTimeSquad
+      name: Follow us on the fediverse via Mastodon
     - icon: simple/telegram
       link: https://t.me/recaptimesquad
-      name: Follow the crew on Telegram
+      name: Follow our Telegram channel
+    - icon: simple/threads
+      link: https://threads.net/@recaptimesquad
+      name: Follow us on Threads
   footer_links:
   - label: Privacy Policy
     href: https://policies.recaptime.dev/privacy
