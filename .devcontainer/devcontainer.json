@@ -11,7 +11,7 @@
 			"moby": "false"
 		},
 		"ghcr.io/devcontainers/features/github-cli:1": {},
-		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/devcontainers/features/node:2": {},
 		"ghcr.io/devcontainers-community/features/deno:1": {},
 		"ghcr.io/joshuanianji/devcontainer-features/github-cli-persistence:1": {},
 		"ghcr.io/itsmechlark/features/doppler:2": {},
